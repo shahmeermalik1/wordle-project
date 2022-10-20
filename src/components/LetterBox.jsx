@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import AppContext from '../../Context'
 
-function LetterBox() {
+
+function LetterBox({x,y}) {
+
+ const {gridOne} = useContext(AppContext)
+  const letter = gridOne[y][x]
   return (
     <>
-    <div className="grid grid-cols-5 gap-4">
-        <div className=" bg-gray-700">
-            
-        </div>
+    <div className="letter">
+      {letter}
     </div>
     
     </>
