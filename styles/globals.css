@@ -29,3 +29,15 @@ a {
     background: black;
   }
 }
+
+#correct{
+  background-color: green !important;
+}
+
+#almost{
+  background-color: yellow;
+}
+
+#error{
+  background-color: red;
+}
