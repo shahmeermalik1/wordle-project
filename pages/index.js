@@ -10,19 +10,28 @@ import { words } from '../words'
 
 export default function Home() {
 
-    const {randomWord} = useContext(AppContext)
+    const {randomWord, gridOne,attempt,checkWord} = useContext(AppContext)
 
     //selects the random word and saves it in the state
   useEffect(() => {
      randomWord(words)
   } , [])
 
+  
+  
 
   return (
     <>
-    
-    <div className="container my-20 mx-auto ">
+    <div className="container-fluid w-100 text-center shadow-lg">
+      <div className="text-white text-3xl py-4">
+        WORDLE
+      </div>
+    </div>
+
+    <div className="container w-2/4 mx-auto ">
     <Grid></Grid>
+    </div>
+    <div className="container w-2/3 mx-auto ">
       <Keyboard></Keyboard>
     </div>
     </>

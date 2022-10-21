@@ -10,39 +10,39 @@ function Grid(){
 
     return (
    <>
-    <div className="grid grid-cols-5 text-center" >
+    <div className="grid grid-cols-5 text-center place-items-stretch gap-4 m-10" >
     
     
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={0} y={0} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={1} y={0} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={2} y={0} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={3} y={0} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={4} y={0} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={0} y={1} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={1} y={1} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={2} y={1} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={3} y={1} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={4} y={1} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={0} y={2} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={1} y={2} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={2} y={2} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={3} y={2} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={4} y={2} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={0} y={3} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={1} y={3} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={2} y={3} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={3} y={3} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={4} y={3} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={0} y={4} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={1} y={4} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={2} y={4} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={3} y={4} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={4} y={4} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={0} y={5} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={1} y={5} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={2} y={5} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={3} y={5} /></div>
-        <div className="border border-gray-700  bg-slate-200 h-12 "><LetterBox x={4} y={5} /></div>
+        <div className=" "><LetterBox x={0} y={0} /></div>
+        <div className=" "><LetterBox x={1} y={0} /></div>
+        <div className=" "><LetterBox x={2} y={0} /></div>
+        <div className=" "><LetterBox x={3} y={0} /></div>
+        <div className=" "><LetterBox x={4} y={0} /></div>
+        <div className=" "><LetterBox x={0} y={1} /></div>
+        <div className=" "><LetterBox x={1} y={1} /></div>
+        <div className=" "><LetterBox x={2} y={1} /></div>
+        <div className=" "><LetterBox x={3} y={1} /></div>
+        <div className=" "><LetterBox x={4} y={1} /></div>
+        <div className=" "><LetterBox x={0} y={2} /></div>
+        <div className=" "><LetterBox x={1} y={2} /></div>
+        <div className=" "><LetterBox x={2} y={2} /></div>
+        <div className=" "><LetterBox x={3} y={2} /></div>
+        <div className=" "><LetterBox x={4} y={2} /></div>
+        <div className=" "><LetterBox x={0} y={3} /></div>
+        <div className=" "><LetterBox x={1} y={3} /></div>
+        <div className=" "><LetterBox x={2} y={3} /></div>
+        <div className=" "><LetterBox x={3} y={3} /></div>
+        <div className=" "><LetterBox x={4} y={3} /></div>
+        <div className=" "><LetterBox x={0} y={4} /></div>
+        <div className=" "><LetterBox x={1} y={4} /></div>
+        <div className=" "><LetterBox x={2} y={4} /></div>
+        <div className=" "><LetterBox x={3} y={4} /></div>
+        <div className=" "><LetterBox x={4} y={4} /></div>
+        <div className=" "><LetterBox x={0} y={5} /></div>
+        <div className=" "><LetterBox x={1} y={5} /></div>
+        <div className=" "><LetterBox x={2} y={5} /></div>
+        <div className=" "><LetterBox x={3} y={5} /></div>
+        <div className=" "><LetterBox x={4} y={5} /></div>
         </div>
 
    </>

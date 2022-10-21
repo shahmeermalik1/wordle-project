@@ -14,6 +14,7 @@ function LetterBox({x,y}) {
   
   const letterCheck = attempt > y && (correct ? "correct" : almost ? "almost" : 'error')
   
+ 
 
   
 
@@ -21,9 +22,16 @@ function LetterBox({x,y}) {
     <>
 
 
-    <div className="letter" id={letterCheck}>
+
+  <div className="  letter  border-[1px] text-3xl place-items-center h-20" id={letterCheck}>
+      <div className="letter1 p-5 text-white rounded-md">
       {letter}
+      
+
+      </div>
     </div>
+
+    
     
     </>
   )

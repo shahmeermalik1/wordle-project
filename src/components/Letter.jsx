@@ -3,7 +3,7 @@ import AppContext from '../../Context'
 
 function Letter({value}) {
 
-    const {position,setPosition,setKeyUsed, keyUsed,gridOne,setGridOne,attempt, setAttempt} = useContext(AppContext)
+    const {position,setPosition,setKeyUsed, keyUsed,gridOne,setGridOne,attempt, setAttempt,checkWord,word} = useContext(AppContext)
 
 
    
@@ -24,6 +24,7 @@ function Letter({value}) {
             const x = attempt + 1
             setAttempt(x)
             setPosition(0)
+            checkWord(attempt,gridOne,word)
         }else{ //handles rest of the keys
             if (position <= 4 && value !=='Delete' && value !== 'Enter') {
             
@@ -44,7 +45,8 @@ function Letter({value}) {
 
   return (
     <div className="col-span-1 ">
-    <div className="bg-gray-700 py-2 px-3 m-2 text-white" onClick={() => handleKeyPress(value)} style={{cursor: "pointer"}}>
+    <div className="bg-[#118ab2] py-4 px-3 m-2 text-white text-2xl " onClick={() => handleKeyPress(value)} style={{cursor: "pointer"}}>
+        {""}
         {value}
     </div>
     </div>

@@ -13,17 +13,23 @@ function MyApp({ Component, pageProps }) {
   const [position,setPosition] = useState(0)
   const [attempt, setAttempt] = useState(0)
   const [word,setWord] = useState('')
-  const [letterState, setLetterState] =   useState('not-correct')
+  const [letterState, setLetterState] =   useState(false)
 
   function randomWord(words){
     const y = words.length
     const x = Math.floor(Math.random() * y)
     const chosenWord = words[x].toLowerCase()
     return (
-      setWord(chosenWord)
+      setWord(chosenWord) 
     )
   }
- 
+  function checkWord(attempt,gridOne,word){
+    const row = gridOne[attempt].join("")
+    
+    if (row === word) {
+      return alert("CONGRATULATIONS!! YOU WON!")
+    }else return setLetterState(false)
+  }
 
   
   
@@ -42,7 +48,8 @@ function MyApp({ Component, pageProps }) {
       attempt,setAttempt,
       randomWord,
       word,
-      setWord
+      setWord,
+      checkWord
     }}>
 
       <Component {...pageProps} />

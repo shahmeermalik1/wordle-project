@@ -9,6 +9,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #073b4c;
 }
 
 a {
@@ -31,13 +32,13 @@ a {
 }
 
 #correct{
-  background-color: green !important;
+  background-color: #06d6a0 !important;
 }
 
 #almost{
-  background-color: yellow;
+  background-color: #ffd166 ;
 }
 
 #error{
-  background-color: red;
+  background-color: #118ab2;
 }
